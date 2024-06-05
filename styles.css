@@ -510,7 +510,11 @@ nav ul li a:hover {
 .testimonial h1 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    text-align: center;
+    left: 100%;
+}
+
+.testimonial h3 {
+    font-size: 1.5rem;
 }
 
 blockquote {
@@ -520,26 +524,47 @@ blockquote {
 
 footer {
     font-weight: 700;
+    margin-top: 5%;
+    margin-left: 10%;
 }
 
 .testimonial-users {
     display: flex;
     gap: 10px;
+    margin-left: 10%;
 }
 
-.testimonial-user {
-    width: 50px;
-    height: auto;
+.testimonial-user6 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: -1%;
+}
+
+.testimonial-user7 {
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 
-.testimonial-user1 {
-    width: 200px;
-    height: auto;
+.testimonial-user8{
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 
-/* FAQ Section */
+.testimonial-user9{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.testimonial-user10{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
 .faq {
     padding: 50px 20px;
 }
