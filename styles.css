@@ -704,3 +704,91 @@ footer {
     background: white;
     position: absolute;
 }
+
+footer {
+    background-color: #fff;
+    padding: 2rem 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 2rem;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.footer-logo {
+    height: 40px;
+    margin-bottom: 1rem;
+}
+
+.footer-column h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-column ul li a {
+    color: #000;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #007BFF;
+}
+
+.footer-column form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column form label {
+    margin-bottom: 0.5rem;
+}
+
+.footer-column form input {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.footer-column form button {
+    padding: 0.5rem;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.footer-column form button:hover {
+    background-color: #333;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 1rem;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #777;
+}
